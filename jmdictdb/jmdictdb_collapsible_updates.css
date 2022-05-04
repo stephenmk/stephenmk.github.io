@@ -1,0 +1,52 @@
+.item {
+  margin: 0px !important;
+  padding: 10px 10px 10px 20px !important;
+  border: 0px 1px 1px 1px !important;
+  border-top-width: 0px !important;
+  border-radius: 0px 0px 10px 10px;
+}
+.jmd-footer {
+  height: 90vh; /* prevent the scroll from jumping around when collapsing content near the bottom of the page */
+}
+.date-navigation {
+  display: flex;
+  column-gap: 0.5rem;
+}
+.date-navigation-today {
+  flex-grow: 1;
+}
+.indent {
+  margin-left: calc(3vw * var(--indent));
+}
+.collapse-button {
+  cursor: pointer;
+  padding: 5px 0px 5px 50px;
+  margin: 2px 0px 0px 0px;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  font-size: 1em;
+}
+.collapse-button.active {
+  border-radius: 10px 10px 0px 0px;
+}
+.collapse-button > .pending::before {
+  content: "＊";
+  position: absolute;
+  left: 30px;
+  margin-left: calc(3vw * var(--indent));
+}
+.collapse-content {
+  display: block;
+  overflow: hidden;
+}
+.cc-hidden {
+  display: none;
+  max-height: 0;
+}
+.cc-transition.cc-hidden {
+  display: block;
+}
+.cc-transition {
+  transition: max-height ease;
+}

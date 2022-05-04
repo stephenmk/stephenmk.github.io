@@ -1,0 +1,73 @@
+/* General */
+body            {font-family: arial;}
+.item	        /* Green box used on most pages... */
+                {background: #E8FFF0;
+                 border-style: solid; border-width: thin;
+                 margin: 5px; padding: 10px}
+.caution	{color: #FF0000}
+.notice		{font-size: 65%; color: #FF0000}
+.notes		{font-size: 75%;}
+.flash          {border-style: solid; border-width: thin;
+                 margin: 5px; padding: 10px; }
+.flash.error    {background: #FFCCCC; } /* red       hsv=0,20,100 */
+.flash.warn     {background: #FFFFCC; } /* yellow    hsv=60,20,100 */
+.flash.success  {background: #CCFFCC; } /* green     hsv=120,20,100 */
+.flash.info     {background: #CCFFFF; } /* turquoise hsv=240,20,100 */
+
+/* Header/footer*/
+.helplink	{font-size: 75%;}
+.navlinks	{font-size: 75%}
+.foottxt	{font-size: 75%}
+.hlogin		{font-size: 75%}
+
+/* Entry display */
+.pkid		{font-size: 80%}
+.kattrs,.rattrs {font-size: 80%; font-style: italic; color: #008000}
+.pos,.misc	{font-style: italic; color: #008000}
+.dial,.lang	{font-size: 80%}
+.lsrc           {font-size: 80%}
+.status		{font-size: 80%}
+.pend		{color: #FF0000}
+.histtab	{border-style: solid; border-width: thin; border-color: #A0A0A0;
+                 padding: 5px; font-size: 75%}
+.submitter_name {font-weight: 700}
+.preformat	{margin: 1px 1px 1px 1em; white-space: pre-wrap;
+                 font-size:110%; font-family: monospace;
+                 padding 2px; }
+.fakelink       {color: #0000EE; /* same as a link's default color. */
+                 text-decoration: underline; cursor: pointer; }
+.abbr           {font-style: italic; color: #008000; cursor: help; }
+.kddetails,.kdrefs,.kdenc
+                {border-style: none; border-width: thin; }
+                {text-align: left; }
+
+/* Search results list */
+.count     	{font-size: 80%; font-style: bold; color: #C00040}
+.reslist   	{border-width: thin;}
+.resrow    	{vertical-align: top;}
+.seq,.gloss	{font-size: 80%;}
+.heading   	{border-width: thin;}
+.debug		{font-size: 60%;}
+
+/* Search form */
+.descriptor	{font-style: italic; color: #008000;}
+.optgroup	{font: 75% arial}
+
+/* Edit form */
+.entrinfo       {border-style: solid; border-width: thin;}
+
+/* Conjugations */
+.conjtable	{border-collapse: collapse; border: 1px solid black;}
+.conjbrk	{background: #FFFFE0;}
+.conjacks       {font-size: 75%;
+                  border-style: none; border-width: thin; }
+
+/* Help form */
+table.syntable	{border: 1px solid black; border-collapse:collapse;}
+td.syntable     {vertical-align:top; border: 1px solid black;
+                 cellpadding:2; cellspacing:2;}
+
+/* Error form */
+.errormsg	{margin: 1px 1px 1px 1em; white-space: pre-wrap;
+                 font-size:110%; font-family: monospace;
+                 padding 2px; }
