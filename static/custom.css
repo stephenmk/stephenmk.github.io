@@ -4,23 +4,13 @@ main nav {
 }
 
 article {
-    a { outline-color: transparent; }
-    a:link { color: blue; }
-    a:visited { color: purple; }
-    a:focus {}
-    a:hover { text-decoration: underline; }
-    a:active { color: orange; }
-
     tr > td:nth-child(n+2) {
         border-left: solid 1px #ddd;
     }
     h1 {
-        text-decoration: underline;
-        text-decoration-thickness: 1px;
-        text-underline-offset: 0.1em;
+        font-weight: bold;
     }
     h2 {
-        color: #d01616;
         text-shadow: 1px 1px 0 rgba(0,0,0,.2);
     }
 }
